@@ -1,0 +1,14 @@
+n=input()
+sum=0
+a=list(map(int,n))
+for i in range(len(a)):
+    x=a[i]
+    s=1
+    while(x):
+        s=s*x
+        x=x-1
+    sum=sum+s
+if(n==str(sum)):
+    print("strong")
+else:
+    print("not strong")

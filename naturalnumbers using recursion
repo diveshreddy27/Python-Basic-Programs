@@ -1,0 +1,6 @@
+def natural(n):
+    if(n>1):
+        natural(n-1)
+    print(n,end=" ")
+n = int(input())
+natural(n)
